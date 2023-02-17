@@ -1,5 +1,41 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benjamin's Labs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header"><h1>Benjamin's Labs for INST377</h1></header>
+    <div class="container">
+      <div class="left_section box"><h3>Album Names</h3>
+      <ol class="box">
+        <li>Playboi Carti - Vamp Anthem</li>
+        <li>Panic! At The Disco - High Hopes</li>
+        <li>Three Days Grace - Animal I Have Become</li>
+        <li>Ashes Remain - On My Own</li>
+        <li>Electric Light Orchestra - Mr. Blue Sky</li>
+      </ol>
+    </div>
+      <div class="right_section box">
+        <h3>Image Carousel</h3>
+        <div class="carousel">
+            <button class="prev">prev</button>
+            <div class="slides">
+                <div class="carousel_item visible"><img src='images/Mrkrabs.png'/></div>
+                <div class="carousel_item hidden"><img src='images/NewPat.png'/></div>
+                <div class="carousel_item hidden"><img src='images/NewSponge.png'/></div>
+                <div class="carousel_item hidden"><img src='images/Newsquid.png'/></div>
+              </div>
+            <button class="next">next</button>
+        </div>
+        <div class="box">Meme formats with Spongebob characters</div>
+    </div>
+    </div>
+  </div>
+  <footer class="footer"><a href="http://github.com/BenjiZheng/" target="_blank" rel="noopener noreferrer">BenjiZheng</a></footer>
+  <script src="script.js" ></script>
+</body>
+</html>
